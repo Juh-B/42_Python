@@ -29,9 +29,4 @@ def test_divide_by_zero():
 def test_power():
     assert calculator.power(2, 4) == 16
     assert calculator.power(3, 2) == 9
-
-# Entrada	Resultado	Tipo de retorno
-# power(2, 3)	8	int
-# power(2, -1)	0.5	float
-# power(9, 0.5) (float)	3.0	float
-# power('a', 3) (str)	'aaa'	str
+    assert calculator.power(0, 0) == 1

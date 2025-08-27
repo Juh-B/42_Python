@@ -67,7 +67,7 @@ def power(base: int, exponent: int) -> Any:
         is multiplied by itself.
 
     Returns:
-    # Any: The result of the exponentiation. Type depends on the inputs:
-    #      int or float for numeric inputs, str for string repetition, etc.
+    Any: The result of the exponentiation. Type depends on the inputs: \
+        int or float for numeric inputs, str for string repetition, etc.
     """
     return base ** exponent

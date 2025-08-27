@@ -13,6 +13,7 @@ def read_file(file_name: str) -> None:
     with open(file_name, "r",encoding='utf-8') as file:
         print(f'{file.read()}')
 
+
 def main() -> int:
     """
     Main function.
@@ -28,6 +29,7 @@ def main() -> int:
     except Exception as e:
         print(f"\033[31mUnexpected error:\033[0m {type(e).__name__}\n({e})")
     return 1
+
 
 if __name__ == "__main__":
     sys.exit(main())
