@@ -21,10 +21,10 @@ class Operation:
 
 
     def __repr__(self) -> str:
-        """Provide an official representation of the object."""
+        """Provide an official representation of the operation."""
         return f"Operation(cents={self.cents}, operation_type='{self.operation_type}', description='{self.description}')"
 
 
     def __str__(self) -> str:
-        """Provide a readable and user-friendly representation of the object."""
+        """Provide a readable and user-friendly representation of the operation."""
         return f"{utils.format_cents(self.cents)} ({self.description})"
